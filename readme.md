@@ -17,7 +17,7 @@ A Real-Time Object Detection and Tracking Dashboard built for the final task of 
 
 1. **Clone the repository:**
    ```bash
-   git clone 
+   git clone https://github.com/Haris-Mahmood-21/CodeAlpha_ObjectTracker
 
 2. **Create and activate a virtual environment:**
     ```bash
