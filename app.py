@@ -45,7 +45,7 @@ if start_button:
             results = model.track(frame, persist=True, conf = 0.5 )
             annotated_frames = results[0].plot()
             annotated_frames_rgb = cv2.cvtColor( annotated_frames, cv2.COLOR_BGR2RGB )
-            frame_placeholder.image( annotated_frames_rgb, channels='RGB', use_container_width=True)
+            frame_placeholder.image( annotated_frames_rgb, channels='RGB')
 
 # Clean up after loops end.
         cap.release()
